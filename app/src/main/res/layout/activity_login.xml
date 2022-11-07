@@ -7,14 +7,33 @@
     android:background="@drawable/back_repeast"
     tools:context=".Authentication.Login">
 
+    <Button
+        android:id="@+id/btn_restaurar"
+        android:layout_width="215dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FFE45D"
+        android:shadowColor="#000000"
+        android:shadowDx="1.3"
+        android:shadowDy="2.3"
+        android:shadowRadius="3.6"
+        android:text="¿Olvidaste tu contraseña?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rest"
+        app:layout_constraintVertical_bias="0.473"
+        app:strokeColor="#4A0B3A"
+        app:strokeWidth="3dp" />
+
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/edittxt_pass"
         android:layout_width="287dp"
         android:layout_height="54dp"
         android:background="@color/white"
         android:ems="10"
         android:hint=" Contraseña"
         android:inputType="textPassword"
+        android:paddingHorizontal="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,21 +41,22 @@
         app:layout_constraintVertical_bias="0.415" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/editxt_email"
+        android:paddingHorizontal="10dp"
         android:layout_width="287dp"
         android:layout_height="54dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:hint=" Correo"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/edittxt_pass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
 
     <Button
-        android:id="@+id/btn_entrar"
+        android:id="@+id/btn_rest"
         android:layout_width="215dp"
         android:layout_height="52dp"
         android:backgroundTint="#FFE45D"
@@ -48,13 +68,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/edittxt_pass"
         app:layout_constraintVertical_bias="0.148"
         app:strokeColor="#4A0B3A"
         app:strokeWidth="3dp" />
 
     <Button
-        android:id="@+id/btn_registrar"
+        android:id="@+id/btn_inicioses"
         android:layout_width="215dp"
         android:layout_height="52dp"
         android:backgroundTint="#FFE45D"
@@ -66,7 +86,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rest"
         app:layout_constraintVertical_bias="0.110000014"
         app:strokeColor="#4A0B3A"
         app:strokeWidth="3dp" />
@@ -82,9 +102,22 @@
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
+        app:layout_constraintBottom_toTopOf="@+id/editxt_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/rememberBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="51dp"
+        android:text="Recordar datos"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_rest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittxt_pass"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,68 +8,33 @@
     tools:context=".Authentication.Login">
 
     <EditText
-        android:id="@+id/edittxt_pass"
-        android:paddingHorizontal="10dp"
-        android:layout_width="287dp"
-        android:layout_height="54dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:hint=" Contraseña"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
-
-    <EditText
         android:id="@+id/editxt_email"
-        android:paddingHorizontal="10dp"
         android:layout_width="287dp"
         android:layout_height="54dp"
+        android:layout_marginTop="276dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:hint=" Correo"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/edittxt_pass"
+        android:paddingHorizontal="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_rest"
         android:layout_width="215dp"
         android:layout_height="52dp"
+        android:layout_marginBottom="300dp"
         android:backgroundTint="#FFE45D"
         android:shadowColor="#000000"
         android:shadowDx="1.3"
         android:shadowDy="2.3"
         android:shadowRadius="3.6"
-        android:text="REGISTRARSE"
+        android:text="ENVIAR CORREO DE REESTABLECIMIENTO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittxt_pass"
-        app:layout_constraintVertical_bias="0.148"
-        app:strokeColor="#4A0B3A"
-        app:strokeWidth="3dp" />
-
-    <Button
-        android:id="@+id/btn_inicioses"
-        android:layout_width="215dp"
-        android:layout_height="52dp"
-        android:backgroundTint="#FFE45D"
-        android:text="IR A INICIO DE SESIÓN"
-        android:shadowColor="#000000"
-        android:shadowDx="1.3"
-        android:shadowDy="2.3"
-        android:shadowRadius="3.6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_rest"
-        app:layout_constraintVertical_bias="0.110000014"
         app:strokeColor="#4A0B3A"
         app:strokeWidth="3dp" />
 
@@ -80,13 +45,14 @@
         android:shadowColor="#000000"
         android:shadowDy="15.3"
         android:shadowRadius="15.6"
-        android:text="REGISTRO"
+        android:text="REESTABLECER"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/editxt_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

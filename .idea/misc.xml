@@ -7,6 +7,18 @@
         <entry key="..\:/Users/angel/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/angel/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/angel/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/drawable/ic_config.xml" value="0.197" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/drawable/ic_home.xml" value="0.197" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/drawable/ic_map.xml" value="0.197" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/activity_login2.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/activity_registro.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/activity_restaurar.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/activity_sign_up.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/fragment_config.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/fragment_inicio.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/fragment_map.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/angel/Documents/GitHub/androidSTUFF/app/src/main/res/layout/fragment_restaurar.xml" value="0.16983695652173914" />
       </map>
     </option>
   </component>
