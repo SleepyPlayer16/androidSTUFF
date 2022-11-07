@@ -63,21 +63,6 @@ public class Registro extends AppCompatActivity {
     }
 
     private void _metodoRegistro(){
-        new AlertDialog.Builder(this)
-                .setTitle("Alerta")
-                .setMessage("EJE,PLO")
-                .setPositiveButton("ACEPTAR", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-
-                    }
-                })
-                .setNegativeButton("CANCELAR", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.dismiss();
-                    }
-                }).show();
 
         String email =  emailText.getText().toString();
         String password = passwordText.getText().toString();
